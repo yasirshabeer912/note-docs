@@ -53,6 +53,7 @@ function Note(props) {
     <div className="note" style={{ backgroundColor: props.note.color }}>
       <textarea
         className="note_text"
+        placeholder="Please Write Something Here"
         defaultValue={props.note.text}
         onChange={(event) => updateText(event.target.value, props.note.id)}
       />

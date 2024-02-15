@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-
+import React, { useState } from 'react'
 import plusIcon from "../../assets/plus.png";
 
 import "./Sidebar.css";
 
-function Sidebar(props) {
+const Sidebar = (props) => {
   const colors = ["#fe9b72", "#fec971", " #00d4fe", "#b693fd", "#e4ee91"];
 
   const [listOpen, setListOpen] = useState(false);
@@ -26,4 +25,6 @@ function Sidebar(props) {
   );
 }
 
-export default Sidebar;
+
+
+export default Sidebar

@@ -1,10 +1,8 @@
-import React from "react";
-
+import React from 'react'
 import Note from "../Note/Note";
 
 import "./NoteContainer.css";
-
-function NoteContainer(props) {
+const NoteContainer = (props) => {
   const reverArray = (arr) => {
     const array = [];
 
@@ -38,4 +36,4 @@ function NoteContainer(props) {
   );
 }
 
-export default NoteContainer;
+export default NoteContainer
